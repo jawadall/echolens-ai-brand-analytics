@@ -1,0 +1,49 @@
+# Dependencies
+/backend/venv/
+/frontend/node_modules/
+/frontend/dist/
+
+# Environment & Credentials
+.env
+.env.*
+*.env
+gcp_service_account.json
+*.json.bak
+
+# Database
+*.sqlite3
+*.db
+*.sql
+
+# Cache & Build
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+
+# Logs
+/backend/logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+.agent/
+
+# Data files
+*.xlsx
+*.csv
+/output/
+/student_app/
+/student_profiles/
+
+# Docs (kept separately)
+/docs/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Package locks
+package-lock.json
+npm-debug.log
